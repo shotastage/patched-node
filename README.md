@@ -8,7 +8,7 @@ This is unofficial version of Node.js that is patched to deal with memory alloca
 
 ## How to install or apply Patch?
 
-Easiest way to apply this patch is overwriting Homebrew version Node.js by running `install.sh` after cloning this repository.
+Easiest way to apply this patch is overwriting Homebrew version Node.js by running `install.sh` after cloning this repository like bellow.
 
 ```
 $ git clone https://github.com/shotastage/patched-node.git
@@ -17,3 +17,14 @@ Cloning into...
 $ cd patched-node
 $ ./install.sh
 ```
+
+
+
+**or Net installer**
+
+Just copy & paste this line into your terminal.
+
+```
+bash <(curl -sL https://raw.githubusercontent.com/shotastage/patched-node/master/netinst.sh)
+```
+

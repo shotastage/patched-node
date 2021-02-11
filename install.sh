@@ -22,6 +22,7 @@ is_macos?
 is_arm64?
 
 if [ -e /opt/homebrew/Cellar/node/15.8.0/ ]; then
+    chmod +x ./node
     cp -f ./node /opt/homebrew/Cellar/node/15.8.0/bin/node
 fi
 echo Completed!
