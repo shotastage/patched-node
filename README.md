@@ -28,3 +28,5 @@ Just copy & paste this line into your terminal. This script will replace Homebre
 bash <(curl -sL https://raw.githubusercontent.com/shotastage/patched-node/master/netinst.sh)
 ```
 
+
+>> Thanks https://github.com/nodejs/node/pull/37276 for helpful patch.
