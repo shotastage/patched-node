@@ -22,7 +22,7 @@ $ ./install.sh
 
 **or Net installer**
 
-Just copy & paste this line into your terminal. This script will replace Homebrwe Node.js instalation.
+Just copy & paste this line into your terminal. This script will replace Homebrew Node.js instalation.
 
 ```
 bash <(curl -sL https://raw.githubusercontent.com/shotastage/patched-node/master/netinst.sh)
